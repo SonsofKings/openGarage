@@ -5,19 +5,19 @@
 
 # Open Garage
 ___
-####Author: Winston Purkiss
+#### Author: Winston Purkiss
 
 This neuron utilizes a rest API to communicate with a distance sensor to control and monitor your garage door.
 
-###Requirements
+### Requirements
 ___
 None
 
-###Interneuron
+### Interneuron
 ___
 `name:` openGarage
 
-###Vocabulary
+### Vocabulary
 ___
 `toggle`: Presses Garage Door Controller and Toggles Door Position.
 `distance`: Gets Distance Seen by Sensor.
@@ -33,20 +33,20 @@ ___
 `displaytarget`: Displays Current Target.
 `mount`: (numerical value between 0 and 1 only) Sets logic of Door Sensor. 0 = Ceiling Mount, 1 = Wall Mount. Ceiling logic says Closer Distance is open. Wall Logic says Closer Distance is closed.
 
-###Skills
+### Skills
 ___
 None
 
-###Resources
+### Resources
 ___
-####Stock
+#### Stock
 RestClient: Used to talk to the sensor.
 
-####Custom
+#### Custom
 None
 
 
-##Network Setup
+## Network Setup
 ___
 
 On initial startup, make sure /openGarage/index.js line 20 reads: 
