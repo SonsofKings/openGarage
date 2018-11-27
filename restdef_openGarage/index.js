@@ -30,14 +30,14 @@ exports.ogRest = function(param1, param2) {
                 },
 
                 setthreshold: {
-                    path: '/cc?dkey=' + password,
+                    path: '/co?dkey=' + password,
                     params: {
                         dth: {type: 'number', required: true}
                     }
                 },
 
                 mount: {
-                    path: '/cc?dkey=' + password,
+                    path: '/co?dkey=' + password,
                     params: {
                         mnt: {type: 'number', required: true}
                     }

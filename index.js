@@ -47,15 +47,7 @@ exports.neuron = {
 		type: 'node',
 		name: myName,
 		ivKey: false,
-		connectTo: {host: false, port: false },
-		outflow: ['statusUpdate'],
-		controls: {
-			subscriptions: {
-				onSubscriber: 'newSubscription',
-				published: { statusUpdate: 'Emitted everytime the door opens or closes'},
-				allAll: true
-			}
-		}
+		connectTo: {host: false, port: false }
 	},
 	resources: [
 	{
